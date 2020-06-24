@@ -1,0 +1,42 @@
+
+
+.home-page{
+	height:100%;
+	overflow:hidden;
+	.btns-wrapper{
+		height:40px;
+		display:inline-flex;
+		align-items:center;
+		
+		.btns-item{
+			margin-left:10px;
+		}
+	}
+	
+	.cont-wrapper{
+		height:calc(100% - 40px);
+		overflow-y:auto;
+	}
+}
+
+
+.home-page{
+	
+	.add-edit-task-modal-wr{
+		
+		padding:4px;
+		
+		.item-wr{
+			margin-top:4px;
+		}
+		
+		uni-textarea,uni-input{
+			width:auto;
+			border:1px solid #ccc;
+			padding:4px 2px;
+		}
+		
+		
+	}
+}
+
